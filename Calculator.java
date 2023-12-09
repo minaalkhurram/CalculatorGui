@@ -62,7 +62,7 @@ public class Calculator extends JFrame {
         }
     }
 
-    private double calculate(double a, double b, String op) {
+    public double calculate(double a, double b, String op) {
         switch (op) {
             case "+":
                 return a + b;
